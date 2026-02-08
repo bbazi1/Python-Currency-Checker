@@ -1,7 +1,7 @@
 # Python-Currency-Checker
 a simple currency checker with python (USD to every currency)
-
-'''import requests as rqs
+```
+import requests as rqs
 import string
 import time
 
@@ -16,7 +16,8 @@ aed_rate= response["conversion_rates"]["AED"]
 print(f"USD RATES:\n TRY: {try_rate}\n EUR: {eur_rate}\n AED: {aed_rate}")
 print("Use 3-letter ISO currency codes".upper())
 
-while(True): 
+while(True):
+      
     user_input = input("search for any spesific currency or type 'exit' to quit: ")
     if user_input.lower() == "exit":
         break
@@ -25,4 +26,5 @@ while(True):
             print(f"{user_input.upper()}: {response["conversion_rates"][user_input.upper()]}")
         else:
             print("unkown currency or wrong input")
-            time.sleep(1)'''
+            time.sleep(1)```
+
