@@ -16,8 +16,7 @@ aed_rate= response["conversion_rates"]["AED"]
 print(f"USD RATES:\n TRY: {try_rate}\n EUR: {eur_rate}\n AED: {aed_rate}")
 print("Use 3-letter ISO currency codes".upper())
 
-while(True):
-      
+while(True): 
     user_input = input("search for any spesific currency or type 'exit' to quit: ")
     if user_input.lower() == "exit":
         break
