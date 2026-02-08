@@ -14,7 +14,6 @@ print(f"USD RATES:\n TRY: {try_rate}\n EUR: {eur_rate}\n AED: {aed_rate}")
 print("Use 3-letter ISO currency codes".upper())
 
 while(True):
-      
     user_input = input("search for any spesific currency or type 'exit' to quit: ")
     if user_input.lower() == "exit":
         break
@@ -24,4 +23,5 @@ while(True):
         else:
             print("unkown currency or wrong input")
             time.sleep(1)
+
 
